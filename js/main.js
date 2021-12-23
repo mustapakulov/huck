@@ -55,29 +55,29 @@ let person1 = new Person("person one", 12333245432);
 
 // person1.getPin();
 person1.setPin(5555555555);
-person1.getPin();
-person1.callPrivateMethod();
-//
-class Task {
-  constructor(number, anwer) {
-    this.answer = anwer;
-    this.number = number;
-  }
-  giveAnswer() {
-    console.log(`${this.answer} for the task ${this.number}`);
-  }
-}
-class EngTask extends Task {
-  constructor(number, answer) {
-    super(number, answer);
-  }
-}
+// person1.getPin();
+// person1.callPrivateMethod();
+// //
+// class Task {
+//   constructor(number, anwer) {
+//     this.answer = anwer;
+//     this.number = number;
+//   }
+//   giveAnswer() {
+//     console.log(`${this.answer} for the task ${this.number}`);
+//   }
+// }
+// class EngTask extends Task {
+//   constructor(number, answer) {
+//     super(number, answer);
+//   }
+// }
 
-class RusTask extends Task {
-  constructor(number, answer) {
-    super(number, answer);
-  }
-  giveAnswer() {
-    console.log(`${this.answer} for the task ${this.number}`);
-  }
-}
+// class RusTask extends Task {
+//   constructor(number, answer) {
+//     super(number, answer);
+//   }
+//   giveAnswer() {
+//     console.log(`${this.answer} for the task ${this.number}`);
+//   }
+// }
